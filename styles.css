@@ -124,3 +124,12 @@ body {
     text-decoration: line-through;
     opacity: 0.5;
 }
+@media(max-width:600px) {
+    
+    .head1{
+        font-size: 15px;
+    }
+    .container{
+        width:80vw
+    }
+}
