@@ -1,0 +1,126 @@
+body {
+    background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+    background-color: white;
+    height: 97vh;
+    width: 98vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+}
+
+.container {
+    height: 70vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.head1 {
+    width: 100%;
+    background-color: #cca8e9;
+    height: 10%;
+    color: white;
+    text-align: center;
+    padding-top: 4%;
+    font-size: larger;
+    border-radius: 4px;
+}
+
+.main {
+    background-color: white;
+    border: solid #cca8e9;
+    border-radius: 5px;
+    margin-top: 10%;
+    width: 100%;
+    min-height: 40%;
+    max-height: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+}
+
+.enter {
+    width: 95%;
+    height: 20%;
+    display: flex;
+}
+
+.task {
+    width: 86%;
+    height: 100%;
+}
+
+.text-input {
+    width: 100%;
+    padding: 7px;
+    margin-top: 1px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+    border: 1px solid #cadefc;
+}
+
+.text-input::placeholder {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+.but {
+    height: 77%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #cadefc;
+    padding: 0;
+    padding-bottom: 5px;
+    width: 10%;
+    margin-left: 2%;
+    border-radius: 5px;
+    font-size: 40px;
+    background-color: #cca8e9;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tasks {
+    height: 75%;
+    width: 94%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.t {
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+}
+.button{
+    margin-right: 3%;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid #c3bef0;
+    cursor: pointer;
+    transition: border 0.3s ease;
+}
+.button:hover{
+    border: 2px solid #a393eb;
+
+}
+.taskss{
+    font-size: large;
+}
+
+
+.t2 {  display: flex;
+    align-items: center;
+    text-decoration: line-through;
+    opacity: 0.5;
+}
